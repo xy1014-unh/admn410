@@ -1,0 +1,324 @@
+/*all*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.bodypage{
+	min-width: 1280px;
+}
+.header{
+	height: 55px;
+	background-color: #ffffff;
+    border-bottom: 1px solid #3c3c3c;
+}
+.logo_name {
+	float: left;
+	margin-left: 190px;
+	font-size: 21px;
+	color: #393a3a;
+	font-family: "courier";
+}
+.logo_name img{
+	height: 55px;
+	vertical-align: middle;
+	margin-right: 13px;
+}
+.nav{
+	float: left;
+	margin-left: 150px;
+}
+.nav li{
+	float: left;
+	list-style: none;
+	text-align: center;
+	height: 52px;
+	width: 150px;
+	line-height: 52px;
+	border-bottom: 3px solid #fff;
+
+}
+.nav a{
+	text-decoration: none;
+	display: block;
+	font-family: "Forte"; 
+	font-size: 20px;
+}
+.nav a:link,.nav a:visited{
+	color: #212F3C
+}
+.nav a:hover,.nav a:active{
+	color: #D6DBDF;
+	border-bottom: 3px solid #D6DBDF;
+}
+.title{
+	border-top: 1px solid #D6DBDF;
+    border-bottom: 1px solid #D6DBDF;
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+    background-image: url("title_background1.png");
+    font-family: "Forte";
+    color: #212F3C;
+}
+/*index*/
+.upper_block_background{
+	height: 590px;
+	background-image: url("upper_background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.upper_block_background_content{
+	background-color: rgba(0,0,0,0.2);
+	height: 457px;
+	padding-top: 170px;
+
+}
+.upper_block_background_content h1{
+	font-size: 60px;
+	font-family: "Forte"; 
+	color: #ffffff;
+	margin-left: 100px;
+
+}
+.upper_block_background_content p{
+	font-size: 30px;
+	font-family: "Forte"; 
+	color: #ffffff;
+	margin-left:115px;
+	margin-top: 30px;
+}
+.mid_block {
+    border-top: 5px solid #3c3c3c;
+    border-bottom: 5px solid #3c3c3c;
+    float: left;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 30px;
+    color: #34495E;
+    font-weight: 300;
+    text-align: center;
+    background-color: #D6DBDF;
+}
+.mid_block h1{
+	font-size: 60px;
+	font-family: "Forte"; 
+	color: #212F3C;
+	margin: auto;
+}
+.bottom_block{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.bottom_block_img{
+	width: 45%;
+    float: left;
+}.bottom_block_img img{
+	margin: 0 auto;
+    height: 690px;
+    width: 500px;
+    float: left;
+    padding: 15px;
+    margin-left: 20px;
+}
+.bottom_block_content{
+	width: 45%;
+    float: left;
+}
+.bottom_block_content h1{
+	font-size: 40px;
+	font-family: "Forte"; 
+	color: #212F3C;
+	margin-left: 250px;
+    text-align: center;
+    margin-top: 50px;
+}
+.bottom_block_content p{
+	font-size: 30px;
+	font-family: "Forte"; 
+	color: #212F3C;
+	margin-top: 30px;
+    text-indent: 20px;
+    text-align: left;
+    margin-left: 50px;
+}
+.about_two_block {
+    width: 100%;
+    float: left;
+    text-align: center;
+    border-top: 5px solid #3c3c3c;
+    border-bottom: 5px solid #3c3c3c;
+    margin-bottom: 100px;
+}
+.left_block {
+    width: 45%;
+    float: left;
+}
+.left_block h1{
+	font-size: 40px;
+	font-family: "Forte"; 
+	color: #212F3C;
+	margin-left: 250px;
+    text-align: center;
+    margin-top: 150px;
+}
+.left_block p{
+	font-size: 30px;
+	font-family: "Forte"; 
+	color: #212F3C;
+	margin-top: 30px;
+    text-indent: 20px;
+    text-align: left;
+    margin-left: 300px;
+}
+.right_block img{
+    margin: 0 auto;
+    height: 690px;
+    width: 500px;
+    float: right;
+    padding: 15px;
+    margin-right: 20px;
+}
+.right_block {
+    width: 45%;
+    float: right;
+}
+/*employee products supplies*/
+.photo_block {
+    width: 100%;
+    float: left;
+    text-align: center;
+    border-top: 5px solid #3c3c3c;
+    border-bottom: 5px solid #3c3c3c;
+    margin-bottom: 100px;
+}
+.page_title{
+	width: 100%;
+	margin-top: 10px;
+}
+.left_title{
+	width: 45%;
+	float: left;
+}
+.left_title h3{
+	font-size: 30px;
+	text-align: center;
+	padding: 10px;
+}
+.right_title{
+	width: 45%;
+	float: left;
+}
+.right_title h3{
+	font-size: 30px;
+	text-align: center;
+	padding: 10px;
+}
+.left_part {
+    width: 45%;
+    float: left;
+}
+.left_part img{
+    margin: 0 auto;
+    height: 400px;
+    width: 320px;
+    float: left;
+    padding: 50px;
+    padding-left: 100px;
+}
+.left_part p{
+	font-size: 25px;
+	font-family: "Arial"; 
+	color: #212F3C;
+	margin-top: 250px;
+    margin-left: 50px;
+}
+.right_part {
+    width: 45%;
+    float: left;
+}
+.right_part img{
+    margin: 0 auto;
+    height: 400px;
+    width: 320px;
+    float: left;
+    padding: 50px;
+}
+.right_part p{
+	font-size: 25px;
+	font-family: "Arial"; 
+	color: #212F3C;
+	margin-top: 250px;
+    margin-left: 50px;
+}
+.supplies_block{
+	width: 80%;
+	margin: 0 auto;
+	height: 90%;
+    margin-bottom: 100px;
+}
+.dog_supplies{
+	width: 30%;
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+	margin-right: 10px;
+	font-size: 20px;
+	font-family: "Forte"; 
+}
+.cat_supplies{
+	width: 30%;
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+	margin-right: 10px;
+	font-size: 20px;
+	font-family: "Forte"; 
+}
+.snake_supplies{
+	width: 30%;
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: "Forte"; 
+}
+.page_photo{
+	width: 300px;
+	height: 400px;
+	margin: 0 auto;
+}
+/*policy*/
+.policy_block{
+	width: 80%;
+	margin: 0 auto;
+	height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.policy_block h2{
+    text-align: center;
+    font-size: 30px;
+}
+.policy_block ul{
+    margin-left: 50px;
+}
+/*contact*/
+.contact_us_block{
+	width: 80%;
+	margin: 0 auto;
+	height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.contact_us_block h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+    
+    
